@@ -14,7 +14,7 @@ case class Employee(
 object Employee {
   // Companion object for Employee
 
-  
+
 
   def createFromCsv(line: String): Employee = {
     val attributes = line.split(",")
